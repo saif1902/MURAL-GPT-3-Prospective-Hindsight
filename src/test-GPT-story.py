@@ -13,8 +13,7 @@ def sendPrompt( prompt_txt ):
 
 
 g_prompt_txt = """
-In 100 words or less, describe how our lemonade 
-stand failed because of: bad location
+In 100 words or less, describe how our hackathon failed
 """
 
 sendPrompt( g_prompt_txt )
