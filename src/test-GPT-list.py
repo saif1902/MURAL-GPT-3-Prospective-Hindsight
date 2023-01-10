@@ -12,7 +12,7 @@ def sendPrompt( prompt_txt ):
     print( json.dumps( response.json(), indent=3 ) )
 
 
-g_prompt_txt = "List 10 ways a lemonade stand might fail.  Be concise."
+g_prompt_txt = "List 10 ways a hackathon might fail.  Be concise."
 
 sendPrompt( g_prompt_txt )
 
